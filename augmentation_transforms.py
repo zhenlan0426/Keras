@@ -59,7 +59,7 @@ class ImageNetPolicy(BasePolicy):
         return "AutoAugment ImageNet Policy"
 
 
-class CIFAR10Policy(object):
+class CIFAR10Policy(BasePolicy):
     """ Randomly choose one of the best 25 Sub-policies on CIFAR10.
         Example:
         >>> policy = CIFAR10Policy()
@@ -109,7 +109,7 @@ class CIFAR10Policy(object):
         return "AutoAugment CIFAR10 Policy"
 
 
-class SVHNPolicy(object):
+class SVHNPolicy(BasePolicy):
     """ Randomly choose one of the best 25 Sub-policies on SVHN.
         Example:
         >>> policy = SVHNPolicy()
