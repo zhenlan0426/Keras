@@ -7,7 +7,7 @@ class BasePolicy(object):
     
     def __call__(self, img):
         policy_idx = random.randint(0, len(self.policies) - 1)
-        np.asarray(self.policies[policy_idx](Image.fromarray(img.astype('uint8'))))*self.rescale
+        return np.asarray(self.policies[policy_idx](Image.fromarray(img.astype('uint8'))))*self.rescale
 
 
 class ImageNetPolicy(BasePolicy):
