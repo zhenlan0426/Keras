@@ -8,3 +8,6 @@ https://stackoverflow.com/questions/38972380/keras-how-to-use-fit-generator-with
 https://github.com/keras-team/keras/issues/8130
 
 https://jkjung-avt.github.io/keras-image-cropping/
+
+build model to predict up-side-down image
+look into face recognition 
