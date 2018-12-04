@@ -12,3 +12,4 @@ https://jkjung-avt.github.io/keras-image-cropping/
 - build model to predict up-side-down image
 - look into face recognition 
 - possible aug: shift up/down a little, rotate a little, perspective
+- fine-tune examples that are different classes but similar in model's eyes
