@@ -13,3 +13,5 @@ https://jkjung-avt.github.io/keras-image-cropping/
 - look into face recognition 
 - possible aug: shift up/down a little, rotate a little, perspective
 - fine-tune examples that are different classes but similar in model's eyes
+- asymmetric margin, more margain for different class and less for same class
+- two heads, one for feature embedding, one for weights for feature (for some pic, certain part might be unclear hence should have less weight)
